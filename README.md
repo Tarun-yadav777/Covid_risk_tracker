@@ -105,6 +105,15 @@ python detect_video.py --weights ./checkpoints/custom-416 --size 416 --model yol
 
 # Run yolov4 on webcam
 python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi
+
+# Run yolov4 tensorflow model with covid risk tracker
+python detect.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --images ./data/images/kite.jpg --covid
+
+# Run yolov4 on video with covid risk tracker
+python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --video ./data/video/video.mp4 --output ./detections/results.avi --covid
+
+# Run yolov4 on webcam with covid risk tracker
+python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi --covid
 ```
 If you want to run yolov3 or yolov3-tiny change ``--model yolov3`` and .weights file in above commands.
 
