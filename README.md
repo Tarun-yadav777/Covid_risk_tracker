@@ -1,5 +1,9 @@
 # Covid Risk Tracker
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+- Yolo covid risk tracker result on a photo<br>
+![Project Image](https://github.com/Tarun-yadav777/Covid_risk_tracker/blob/main/detections/img1.png)
+- Yolo covid risk tracker result on a video<br>
+![Project Image](https://github.com/Tarun-yadav777/Covid_risk_tracker/blob/main/detections/test.gif)
 
 
 > This is a ReadMe template to help save you time and effort.
